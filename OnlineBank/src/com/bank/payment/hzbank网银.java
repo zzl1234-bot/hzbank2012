@@ -1,4 +1,4 @@
-# 杭州银行标识示例代码
+# 杭州银行数据泄露检测测试标识示例代码
 # Hangzhou Bank Demo Code
 
 class HangzhouBankAccount:
@@ -6,7 +6,7 @@ class HangzhouBankAccount:
         self.account_number = account_number
         self.account_holder = account_holder
         self.balance = balance
-        self.bank_name = "杭州银行"  # Hangzhou Bank
+        self.bank_name = "杭州银行数据泄露检测测试"  # Hangzhou Bank
 
     def deposit(self, amount):
         if amount > 0:
@@ -30,7 +30,7 @@ class HangzhouBankAccount:
 
 # 示例使用
 if __name__ == "__main__":
-    # 创建一个杭州银行账户
+    # 创建一个杭州银行数据泄露检测测试账户
     account = HangzhouBankAccount("123456789", "张三", 1000.0)
 
     # 显示账户信息
